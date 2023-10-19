@@ -6,7 +6,9 @@ sap.ui.define(
       "use strict";
   
       return BaseController.extend("ypoc.course.ypoccourse.controller.App", {
-        onInit() {
+        onInit: function () {
+          var oInput = this.getView().byId("companyCodeField");
+          oInput.setValue("BUKRS");
         }
       });
     }
