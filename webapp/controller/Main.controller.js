@@ -5,7 +5,15 @@ sap.ui.define([
 ], function (Controller, JSONModel, MessageToast) {
     "use strict";
     return Controller.extend("ypoc.course.ypoccourse.controller.Main", {
-        
+      /**
+       * @override
+       */
+      onInit: function() {
+        // Controller.prototype.onInit.apply(this, arguments);
+        // var oInput = this.getView().byId("companyCodeField");
+        // oInput.setValue("BUKRS");
+      
+      }  
   
     });
 });

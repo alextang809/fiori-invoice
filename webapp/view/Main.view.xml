@@ -75,11 +75,11 @@
 					showFooter="true"/>
 
                 <Label text="Amount" />
-                <Input value="{bldat}" type="Document Date"/>
+                <Input value="{bldat}" currency="{AmountCurrency}" />
 
 
                 <Label text="Tax Amount" />
-                <Input value="{bldat}" type="Document Date"/>
+                <Input value="{bldat}" currency="{AmountCurrency}" />
 				<Label text="Vendor Address" />
 				<!-- <Input value="{ZIPCode}">
 					<layoutData>
