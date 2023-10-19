@@ -1,0 +1,23 @@
+/* ... Your existing styles ... */
+
+/* Adjust the spacing between GenericTile elements */
+.tileContainer {
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+  }
+  
+  /* Adjust the width and margin for each GenericTile */
+  .sapMFlexItem {
+    flex-basis: calc(25% - 16px);
+    margin: 8px;
+    
+  }
+
+.gray{
+  background-color: #f7f7f7;
+}
+
+.customTileBackground {
+  background-color: #cbd3dd; /* Grey background color #0064d9*/
+}
